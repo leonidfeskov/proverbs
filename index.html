@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Proverbs</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="proverb-counter">
+                <span class="proverb-counter__success js-counter-success">0</span>
+                /
+                <span class="proverb-counter__error js-counter-error">0</span>
+            </div>
+            <div class="proverb-title">Продолжи пословицу:</div>
+            <div class="proverb-part js-proverb-part"></div>
+            <div class="proverb-user">
+                <input type="text" class="proverb-user__input js-proverb-input" autofocus>
+                <div class="proverb-user__actions">
+                    <button class="proverb-user__button js-proverb-submit">Проверить</button>
+                    <button class="proverb-user__button js-proverb-next">Следующая</button>
+                </div>
+                <div class="proverb-message proverb-message_success js-proverb-success">Правильно!</div>
+                <div class="proverb-message proverb-message_error js-proverb-error">Не равильно!</div>
+                <div class="proverb-text js-proverb-text"></div>
+            </div>
+        </div>
+        <script src="js/data.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
